@@ -48,6 +48,9 @@ div {
 .uagb-notice-title {
   width: calc(100% - 100px) !important;
 }
+.kb-text-style-field, .kb-select-style-field {
+  min-height: 20px !important;
+}
 .uagb-forms-main-submit-button-text {
     color: #fff;
 }
