@@ -122,9 +122,6 @@ border-top-left-radius: 5px;
   margin-bottom: 20px;
 }
 @media (max-width: 767px) {
-  html:before {
-    background-size: cover;
-}
   .uagb-column__inner-wrap {
     width: calc(100% - 20px) !important;
   }
