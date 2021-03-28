@@ -113,7 +113,7 @@ border-top-left-radius: 5px;
 }
 @media (max-width: 767px) {
   .uagb-column__inner-wrap {
-    width: calc(100% - 20px);
+    width: calc(100% - 20px) !important;
   }
 .uagb-team__image-wrap {
     width: 100% !important;
