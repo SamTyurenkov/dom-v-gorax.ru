@@ -1,6 +1,6 @@
 <!doctype html>
 
-  <html <?php language_attributes(); ?> class="lazy" data-src="/wp-content/themes/blankblank/images/mountains.jpg">
+  <html <?php language_attributes(); ?> >
 
 	<head>
 		<meta charset="utf-8">
