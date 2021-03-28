@@ -12,6 +12,7 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-attachment: fixed;
 }
 .blocks-gallery-grid,
 .wp-block-gallery {

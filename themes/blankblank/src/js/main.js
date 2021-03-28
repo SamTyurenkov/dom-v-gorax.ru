@@ -11,4 +11,11 @@ $(document).ready(function () {
     }
   }
   lazyLoad();
+
+  $('.uagb-team__social-icon').click(function() {
+    ym(35135710,'reachGoal','social');
+  });
+  $('.asplink').click(function() {
+    ym(35135710,'reachGoal','asp');
+  });
 });

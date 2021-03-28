@@ -6,7 +6,11 @@ $ = jQuery, $(document).ready(function () {
     if (lazy) for (var j = 0; j < lazy.length; j++) {
       lazy[j].style.backgroundImage = 'url("' + lazy[j].dataset.src + '")', lazy[j].classList.remove("lazy"), lazy[j].removeAttribute("data-src");
     }
-  }();
+  }(), $(".uagb-team__social-icon").click(function () {
+    ym(35135710, "reachGoal", "social");
+  }), $(".asplink").click(function () {
+    ym(35135710, "reachGoal", "asp");
+  });
 }), function (m, e, t, r, i, k, a) {
   m.ym = m.ym || function () {
     (m.ym.a = m.ym.a || []).push(arguments);
