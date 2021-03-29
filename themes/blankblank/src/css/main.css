@@ -104,10 +104,10 @@ border-top-left-radius: 5px;
   opacity: 1;
 }
 .carouselcontainer .slick-prev {
-  left: -25px;
+  left: 0 !important;
 }
 .carouselcontainer .slick-next {
-  right: -25px;
+  right: 0 !important;
 }
 .carouselcontainer .slick-prev:before,
 .carouselcontainer .slick-next:before {
@@ -144,7 +144,7 @@ border-top-left-radius: 5px;
   padding-right: 20px !important;
 }
   .carouselcontainer {
-    padding: 5px;
+    padding: 5px 15px;
   }
   .uagb-column__wrap {
     max-width: -webkit-fit-content;
