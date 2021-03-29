@@ -99,15 +99,15 @@ border-top-left-radius: 5px;
 }
 .carouselcontainer .slick-prev,
 .carouselcontainer .slick-next {
-  background: none !important;
+  background: none;
   color: #003466;
   opacity: 1;
 }
 .carouselcontainer .slick-prev {
-  left: -25px !important;
+  left: -25px;
 }
 .carouselcontainer .slick-next {
-  right: -25px !important;
+  right: -25px;
 }
 .carouselcontainer .slick-prev:before,
 .carouselcontainer .slick-next:before {
@@ -156,11 +156,11 @@ border-top-left-radius: 5px;
     line-height: 16px !important;
   }
   .slick-next {
-    background: #fff;
+    background: #fff !important;
     right: 0 !important;
   }
   .slick-prev {
-    background: #fff;
+    background: #fff !important;
     left: 0 !important;
   }
   .slick-dots {
