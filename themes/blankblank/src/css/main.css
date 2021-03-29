@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Roboto"),
-    url("../wp-content/uploads/fonts/Roboto-Regular.ttf") format("truetype");
+    url("https://dom-v-gorax.ru/wp-content/uploads/fonts/Roboto-Regular.ttf") format("truetype");
   font-display: swap;
 }
 /* GENERAL */
