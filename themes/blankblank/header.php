@@ -22,7 +22,6 @@ $yoast_meta = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
 
 		<?php if(is_home() || is_front_page()) : ?>
 		<title><?php if ($yoast_title) echo esc_html($yoast_title); ?></title>
-		<meta name="description" content="<?php if ($yoast_meta) echo esc_attr($yoast_meta); ?>" />
 		<?php endif; ?>
 
 		<?php wp_head(); ?>
