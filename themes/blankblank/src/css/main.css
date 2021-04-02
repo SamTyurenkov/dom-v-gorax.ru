@@ -57,6 +57,7 @@ div {
 }
 .kadence-blocks-gallery-item__caption {
   color: #272722 !important;
+  font-size: 18px !important;
 }
 .uagb-notice-title {
   width: calc(100% - 100px) !important;
