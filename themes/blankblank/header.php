@@ -17,8 +17,8 @@ $yoast_meta = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-		<?php if(is_home() || is_frontpage()) : ?>
-		<title><?php if ($yoast_meta) echo esc_html($yoast_title); ?></title>
+		<?php if(is_home() || is_front_page()) : ?>
+		<title><?php if ($yoast_title) echo esc_html($yoast_title); ?></title>
 		<meta name="description" content="<?php if ($yoast_meta) echo esc_attr($yoast_meta); ?>" />
 		<?php endif; ?>
 
