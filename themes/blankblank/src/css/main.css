@@ -55,6 +55,9 @@ div {
   font-family: "Roboto";
   color: #272727;
 }
+.kadence-blocks-gallery-item__caption {
+  color: #272722 !important;
+}
 .uagb-notice-title {
   width: calc(100% - 100px) !important;
 }
