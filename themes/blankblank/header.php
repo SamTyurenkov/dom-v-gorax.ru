@@ -1,5 +1,6 @@
 <?php
-$yoast_title = get_post_meta($post_id, '_yoast_wpseo_title', true);
+global $post;
+$yoast_title = get_post_meta($post->ID, '_yoast_wpseo_title', true);
 $yoast_meta = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
 ?>
 
