@@ -13,14 +13,14 @@ $(document).ready(function () {
   }
   lazyLoad();
 
-  $('.uagb-team__social-icon').click(function() {
+  $('.uagb-team__social-icon').on('click',function() {
     ym(35135710,'reachGoal','social');
     fbq('track', 'Lead', {
       value: 100,
       currency: 'RUB',
     });
   });
-  $('.asplink').click(function() {
+  $('.asplink').on('click',function() {
     ym(35135710,'reachGoal','asp');
     fbq('track', 'Lead', {
       value: 100,
