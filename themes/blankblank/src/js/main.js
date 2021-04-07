@@ -15,16 +15,10 @@ $(document).ready(function () {
 
   $('.uagb-team__social-icon').on('click',function() {
     ym(35135710,'reachGoal','social');
-    fbq('track', 'Lead', {
-      value: 100,
-      currency: 'RUB',
-    });
+    fbq('track', 'Lead');
   });
   $('.asplink').on('click',function() {
     ym(35135710,'reachGoal','asp');
-    fbq('track', 'Lead', {
-      value: 100,
-      currency: 'RUB',
-    });
+    fbq('track', 'Lead');
   });
 });

@@ -42,14 +42,8 @@ $ = jQuery, $(document).ready(function () {
       lazy[j].style.backgroundImage = 'url("' + lazy[j].dataset.src + '")', lazy[j].classList.remove("lazy"), lazy[j].removeAttribute("data-src");
     }
   }(), $(".uagb-team__social-icon").on("click", function () {
-    ym(35135710, "reachGoal", "social"), fbq("track", "Lead", {
-      value: 100,
-      currency: "RUB"
-    });
+    ym(35135710, "reachGoal", "social"), fbq("track", "Lead");
   }), $(".asplink").on("click", function () {
-    ym(35135710, "reachGoal", "asp"), fbq("track", "Lead", {
-      value: 100,
-      currency: "RUB"
-    });
+    ym(35135710, "reachGoal", "asp"), fbq("track", "Lead");
   });
 });
