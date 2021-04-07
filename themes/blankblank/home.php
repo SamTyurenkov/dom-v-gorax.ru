@@ -23,4 +23,4 @@ $curuser = get_current_user_id();
 
     <?php endif; ?>
 </body>
-<?php get_footer(); ?>
+<?php wp_footer(); ?>
