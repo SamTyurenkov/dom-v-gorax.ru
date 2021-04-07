@@ -10,6 +10,7 @@ module.exports = function () {
   $.gulp.task("scripts:site", () => {
     return $.gulp
       .src([
+        scriptsPATH.input + "metrika.js",
         scriptsPATH.input + "*.js",
         "!" + scriptsPATH.input + "gutenberg-blocks/*.js",
       ])
