@@ -1,4 +1,5 @@
 let uglify = require("gulp-terser"),
+  gulpif = require("gulp-if"),
   concat = require("gulp-concat"),
   scriptsPATH = {
     input: "./themes/blankblank/src/js/",
@@ -10,17 +11,17 @@ module.exports = function () {
   $.gulp.task("scripts:site", () => {
     return $.gulp
       .src([
-        scriptsPATH.input + "metrika.js",
+        scriptsPATH.input + "metrika.min.js",
         scriptsPATH.input + "*.js",
         "!" + scriptsPATH.input + "gutenberg-blocks/*.js",
       ])
-      .pipe(concat("main.js"))
-      .pipe(
-        uglify({
-          keep_fnames: true,
-          mangle: false,
-        })
+      .pipe(gulpif('!**/*.min.js', uglify({mangle: false}))
+        //uglify({
+       //   keep_fnames: true,
+      //    mangle: false,
+      //  })
       )
+      .pipe(concat("main.js"))
       .pipe(
         babel({
           presets: ["@babel/preset-env"],

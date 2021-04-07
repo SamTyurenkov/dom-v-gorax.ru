@@ -34,7 +34,8 @@
     "gulp-terser": "^2.0.1",
     "imagemin-jpeg-recompress": "^7.0.0",
     "imagemin-pngquant": "^9.0.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "gulp-if": "^3.0.0"
   },
   "dependencies": {
     "@splidejs/splide": "^2.4.21"

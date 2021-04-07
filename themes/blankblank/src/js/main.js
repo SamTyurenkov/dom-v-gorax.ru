@@ -1,14 +1,5 @@
 $ = jQuery;
 $(document).ready(function () {
-  fbq('init', '446387939063532');
-  fbq('track', 'PageView');
-  
-  ym(35135710, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true,
-       webvisor:true
-  });
 
   function lazyLoad() {
     var lazy = document.querySelectorAll(".lazy");
