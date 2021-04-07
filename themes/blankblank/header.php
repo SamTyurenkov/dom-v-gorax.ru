@@ -21,7 +21,7 @@ $yoast_meta = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
 		<?php if(is_home() || is_front_page()) : ?>
 		<title><?php if ($yoast_title) echo esc_html($yoast_title); ?></title>
 		<?php endif; ?>
-
+		<meta name="facebook-domain-verification" content="eoua801hoq3cz0ldqa07v35qek3eh4" />
 		<?php wp_head(); ?>
 
 	</head>
