@@ -22,6 +22,6 @@ $curuser = get_current_user_id();
            </div>
 
     <?php endif; ?>
-<?php wp_footer(); ?>  
+<?php get_footer(); ?>  
 </body>
 </html>
