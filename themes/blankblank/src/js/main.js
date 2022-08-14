@@ -12,13 +12,20 @@ $(document).ready(function () {
     }
   }
   lazyLoad();
-
-  $('.uagb-team__social-icon').on('click',function() {
+  $(document).on('click','.uagb-team__social-icon',function() {
+    console.log('reachgoal');
     ym(35135710,'reachGoal','social');
     fbq('track', 'Lead');
   });
-  $('.asplink').on('click',function() {
+  $(document).on('click','.asplink',function() {
+    console.log('reachgoal');
     ym(35135710,'reachGoal','asp');
     fbq('track', 'Lead');
   });
+
+  // $(document).on('click','.kb-forms-submit', function(){
+  //   console.log('reachgoal');
+  //   ym(35135710,'reachGoal','asp');
+  //   fbq('track', 'Lead');
+  // });
 });
