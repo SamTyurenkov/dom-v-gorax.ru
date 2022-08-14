@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Roboto"),
-    url("/blankblank/fonts/Roboto-Regular.ttf") format("truetype");
+    url("/wp-content/themes/blankblank/fonts/Roboto-Regular.ttf") format("truetype");
   font-display: swap;
 }
 /* GENERAL */
